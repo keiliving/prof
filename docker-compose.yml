@@ -1,12 +1,13 @@
 version: '3'
 services:
-  web:
+  node:
     build:
       context: .
-      dockerfile: Dockerfile
-    volumes:
-     - ./:/usr/src/app
-    command: sh -c "cd react-sample && yarn start"
-    ports:
-     - "3000:3000"
     tty: true
+    environment:
+      - NODE_ENV=production
+    volumes:
+    - ./:/usr/src/app
+    command: sh -c "cd sample_app && yarn start"
+    ports:
+    - "3000:3000"
