@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-const Footer = () => {
+const Footer:FC = () => {
   return (
     <div className="footer">
       <p>Created by keiliving in 2020</p>

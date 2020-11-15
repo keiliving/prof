@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
-import Footer from './component/templete/header'
+import Footer from './component/templete/footer'
+import Profile from './component/templete/sidebar'
+
 import './App.css';
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
         </a>
       </header>
       <Footer />
+      <Profile />
     </div>
   );
 }
