@@ -7,9 +7,9 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 const Profile:FC = () => {
   return (
     <div className="profile">
-        <p>keiliving<br/>
-          noob enginner
-        </p>
+        <h3 className="name">keiliving</h3>
+        <li>noob enginner</li>
+        <li>よく使うのはRuby</li>
         <Link href="https://github.com/keiliving" target="_blank">
           <GitHubIcon style={{ fontSize: 20, color: "lightgray", marginRight: 20 }} />
         </Link>

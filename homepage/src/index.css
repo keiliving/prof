@@ -6,7 +6,53 @@
   z-index: 1;
 }
 
+.main-container {
+  max-width: 1280px;
+  width: calc(100% - 50px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .footer {
   text-align:center;
   padding:20px 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.wip {
+  
+}
+
+.name {
+  
+  border-bottom: 2px #0bd solid;
+}
+
+.side-bar {
+  width: 22%;
+}
+
+.header {
+  background-image: url(./header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.nav li {
+  margin-left: 36px;
 }

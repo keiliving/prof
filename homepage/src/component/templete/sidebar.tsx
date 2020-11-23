@@ -3,7 +3,9 @@ import Profile from './profile'
 
 const Sidebar:FC = () => {
   return (
+    <div className="side-bar">
     <Profile />
+    </div>
   )
 }
 
