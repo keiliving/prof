@@ -2,5 +2,6 @@
 
 - not container
 ```
+$cd app
 $yarn deploy
 ```
