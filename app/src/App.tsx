@@ -1,14 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Header from './header';
+import Main from './main';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Header></Header>
-      </header>
+      <Main />
     </div>
   );
 }
