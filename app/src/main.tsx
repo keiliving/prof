@@ -4,12 +4,13 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
 import Header from './header';
+import './header.css';
 
 export default function Main() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Header />
+      <Header className="header" />
       <Toolbar />
       <Container>
         <Box my={2}>

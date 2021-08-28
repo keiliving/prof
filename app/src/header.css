@@ -1,0 +1,17 @@
+.MuiToolbar-root {
+  background-color:#181c24;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.link a:hover {
+  color: aqua;
+}
